@@ -62,4 +62,13 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Compile Update="AppShellJTA.xaml.cs">
+	    <DependentUpon>AppShellJTA.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="MainPageJTA.xaml.cs">
+	    <DependentUpon>MainPageJTA.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
 </Project>

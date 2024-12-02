@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Torres_ExamenP2.MainPageJTA">
+
+    <AbsoluteLayout>
+        <Label Text="Conversor de Monedas JTA"
+               FontSize="24"
+               FontAttributes="Bold"
+               AbsoluteLayout.LayoutBounds="0.5, 0.1, -1, -1"
+               AbsoluteLayout.LayoutFlags="PositionProportional"
+               HorizontalTextAlignment="Center" />
+
+        <Picker x:Name="CurrencyFromPicker"
+                Title="De:"
+                AbsoluteLayout.LayoutBounds="0.25, 0.3, 150, 40"
+                AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+        <Picker x:Name="CurrencyToPicker"
+                Title="A:"
+                AbsoluteLayout.LayoutBounds="0.75, 0.3, 150, 40"
+                AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+        <Entry x:Name="AmountEntry"
+               Placeholder="Ingrese cantidad"
+               Keyboard="Numeric"
+               AbsoluteLayout.LayoutBounds="0.5, 0.5, 200, 40"
+               AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+        <Button x:Name="ConvertButton"
+                Text="ConvertirJTA"
+                BackgroundColor="#4CAF50"
+                TextColor="White"
+                AbsoluteLayout.LayoutBounds="0.5, 0.65, 150, 40"
+                AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+        <Label x:Name="ResultLabel"
+               Text="ResultadoJTA: "
+               FontSize="18"
+               AbsoluteLayout.LayoutBounds="0.5, 0.8, -1, -1"
+               AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+        <Button x:Name="ClearButton"
+                Text="LimpiarJTA"
+                BackgroundColor="#FF5722"
+                TextColor="White"
+                AbsoluteLayout.LayoutBounds="0.5, 0.9, 150, 40"
+                AbsoluteLayout.LayoutFlags="PositionProportional" />
+    </AbsoluteLayout>
+
+</ContentPage>  
