@@ -45,12 +45,12 @@ namespace Torres_ExamenP2
         {
             double rate = from switch
             {
-                "Euros" when to == "Dólares" => 1.05,
-                "Euros" when to == "Pesos Colombianos" => 4669.20,
-                "Dólares" when to == "Euros" => 0.95,
-                "Dólares" when to == "Pesos Colombianos" => 4459.11,
-                "Pesos Colombianos" when to == "Euros" => 0.00021,
-                "Pesos Colombianos" when to == "Dólares" => 0.00022,
+                "Euros" when to == "Dólares" => 1,
+                "Euros" when to == "Pesos Colombianos" => 46623,
+                "Dólares" when to == "Euros" => 0.321,
+                "Dólares" when to == "Pesos Colombianos" => 44,
+                "Pesos Colombianos" when to == "Euros" => 0.21,
+                "Pesos Colombianos" when to == "Dólares" => 0.22,
                 _ => 1 
             };
 
