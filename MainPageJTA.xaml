@@ -29,7 +29,7 @@
 
         <Button x:Name="ConvertButton"
                 Text="ConvertirJulianTorresA"
-                BackgroundColor="#4CAF50"
+                BackgroundColor="Blue"
                 TextColor="White"
                 AbsoluteLayout.LayoutBounds="0.5, 0.65, 150, 40"
                 AbsoluteLayout.LayoutFlags="PositionProportional" />
@@ -42,8 +42,8 @@
 
         <Button x:Name="ClearButton"
                 Text="LimpiarJulianTorresA"
-                BackgroundColor="#FF5722"
-                TextColor="White"
+                BackgroundColor="red"
+                TextColor="black"
                 AbsoluteLayout.LayoutBounds="0.5, 0.9, 150, 40"
                 AbsoluteLayout.LayoutFlags="PositionProportional" />
     </AbsoluteLayout>
